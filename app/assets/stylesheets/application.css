@@ -1,0 +1,86 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #abb2bf;
+    background: #282c34;
+    overflow-x: hidden;
+	font-size: 20px;
+ }
+ section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+ }
+ 
+a {
+    color: #56b6c2;
+}
+ 
+
+
+.red {
+    background: #be5046;
+}
+
+.blue {
+    background-color: #61afef;
+	color: #282c34;
+}
+
+.yellow {
+    background: #e5c07b;
+	color: #282c34;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #98c379;
+    color: #282c34;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #282c34;
+}
+
+.button:hover {
+    background-color: #4db5bd;
+	color: #282c34;
+}
+
+.button:active {
+    background-color: #4db5bd;
+    box-shadow: 0 5px #282c34;
+	color: #282c34;
+    transform: translateY(4px);
+}
+.space {
+    width: auto;
+    height: 16px;
+    display: inline-block;
+}
+
+.style_image {
+    border-radius: 15px;
+    height: auto;
+    max-width: 100%;
+}
