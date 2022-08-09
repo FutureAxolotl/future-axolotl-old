@@ -16,8 +16,8 @@
  body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: #abb2bf;
-    background: #282c34;
+    color: #eff0eb;
+    background: #282a36;
     overflow-x: hidden;
 	font-size: 20px;
  }
@@ -31,22 +31,22 @@
  }
  
 a {
-    color: #56b6c2;
+    color: #9aedfe;
 }
  
 
 
 .red {
-    background: #be5046;
+    background: #ff5c57;
 }
 
 .blue {
-    background-color: #61afef;
-	color: #282c34;
+    background-color: #57c7ff;
+	color: #282a36;
 }
 
 .yellow {
-    background: #e5c07b;
+    background: #f3f99d;
 	color: #282c34;
 }
 
@@ -55,22 +55,22 @@ a {
     font-size: 25px;
     text-align: center;
     cursor: pointer;
-    background-color: #98c379;
-    color: #282c34;
+    background-color: #5af78e;
+    color: #282a36;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #282c34;
+    box-shadow: 0 9px #282a36;
 }
 
 .button:hover {
-    background-color: #4db5bd;
-	color: #282c34;
+    background-color: #57c7ff;
+	color: #282a36;
 }
 
 .button:active {
-    background-color: #4db5bd;
-    box-shadow: 0 5px #282c34;
-	color: #282c34;
+    background-color: #57c7ff;
+    box-shadow: 0 5px #282a36;
+	color: #282a36;
     transform: translateY(4px);
 }
 .space {
