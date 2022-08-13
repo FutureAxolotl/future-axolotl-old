@@ -30,16 +30,7 @@
     padding: 100px 20vw;
  }
 
- iframe {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 400px;
-    padding: 100px 20vw;
 
- }
- 
 a {
     color: #9aedfe;
 }
