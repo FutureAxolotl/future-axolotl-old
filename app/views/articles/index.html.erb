@@ -29,7 +29,12 @@
             <div class="space"></div>
     </section>
     <section> 
-        <h4>Me because idk what else to put here pls don't click me</h4>
-        <a href="https://youtu.be/dQw4w9WgXcQ"> <%= image_tag('pfp.png') %> </a>
+        <h4>Me because idk what else to put here</h4>
+        <button onclick="easterEgg()"><%= image_tag('pfp.png') :class => Easter_Egg %></button>
+        <script type="text/javascript">
+            function easterEgg() {
+                console.log "Oh hi there!"
+            }
+        </script>
     </section>
 </body>

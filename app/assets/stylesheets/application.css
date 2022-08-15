@@ -29,6 +29,10 @@
     min-height: 400px;
     padding: 100px 20vw;
  }
+ iframe {
+    width: auto;
+    height: auto;
+ }
 
 
 a {
