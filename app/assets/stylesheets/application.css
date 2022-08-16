@@ -84,4 +84,10 @@ a {
     border-radius: 15px;
     height: auto;
     max-width: 100%;
+    border-width: 0px;
+}
+
+.easterEgg {
+    border: none;
+    border-radius: 15px;
 }
