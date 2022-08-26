@@ -14,6 +14,8 @@ class HellosTest < ApplicationSystemTestCase
     visit hellos_url
     click_on "New hello"
 
+    fill_in "Body", with: @hello.body
+    fill_in "Title", with: @hello.title
     click_on "Create Hello"
 
     assert_text "Hello was successfully created"
@@ -24,6 +26,8 @@ class HellosTest < ApplicationSystemTestCase
     visit hello_url(@hello)
     click_on "Edit this hello", match: :first
 
+    fill_in "Body", with: @hello.body
+    fill_in "Title", with: @hello.title
     click_on "Update Hello"
 
     assert_text "Hello was successfully updated"
