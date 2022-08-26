@@ -17,7 +17,7 @@ class HellosControllerTest < ActionDispatch::IntegrationTest
 
   test "should create hello" do
     assert_difference("Hello.count") do
-      post hellos_url, params: { hello: { face: @hello.face } }
+      post hellos_url, params: { hello: {  } }
     end
 
     assert_redirected_to hello_url(Hello.last)
@@ -34,7 +34,7 @@ class HellosControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update hello" do
-    patch hello_url(@hello), params: { hello: { face: @hello.face } }
+    patch hello_url(@hello), params: { hello: {  } }
     assert_redirected_to hello_url(@hello)
   end
 
